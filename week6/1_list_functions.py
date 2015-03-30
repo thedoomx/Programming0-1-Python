@@ -68,3 +68,11 @@ def drop(n, array):
         n += 1
     
     return new_array
+
+def reverse(array):
+    reverse_array = []
+
+    for item in array:
+        reverse_array = [item] + reverse_array
+
+    return reverse_array
